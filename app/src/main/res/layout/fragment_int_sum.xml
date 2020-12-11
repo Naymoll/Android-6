@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntSum">
+
+    <TextView
+        android:id="@+id/result_int_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/result"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sum_int_button" />
+
+    <Button
+        android:id="@+id/sum_int_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="49dp"
+        android:text="@string/sum"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/result_int_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/second_int_number"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/first_int_number"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:inputType="numberSigned|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/second_int_number"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:inputType="numberSigned|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_int_number" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

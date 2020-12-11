@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/open_history_item"
+        android:title="@string/open_history" />
+
+    <item
+        android:id="@+id/open_service_item"
+        android:title="@string/open_service" />
+
+    <item
+        android:id="@+id/open_browser_item"
+        android:title="@string/open_browser" />
+
+    <item
+        android:id="@+id/open_settings_item"
+        android:title="@string/open_settings" />
+    <item
+        android:id="@+id/open_file_activity"
+        android:title="@string/open_file" />
+
+</menu>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name" translatable="false">Application6</string>
+    <string name="result" translatable="true">Result:</string>
+    <string name="sum" translatable="true">Sum</string>
+    <string name="sum_strings" translatable="true">Sum strings</string>
+    <string name="empty_field_err" translatable="true">Some field is empty</string>
+    <string name="wrong_number_err" translatable="true">Wrong numbers</string>
+    <string name="switch_fragment" translatable="true">Switch fragment</string>
+
+    <string name="open_history">Open history</string>
+
+    <string name="snack" translatable="false">Snack it</string>
+    <string name="delete_except" translatable="false">Delete except</string>
+
+    <string name="start_service">Start service</string>
+    <string name="stop_service">Stop service</string>
+    <string name="service_started">Service started</string>
+    <string name="service_stopped">Service stopped</string>
+    <string name="counted_to">Counted to %d</string>
+
+    <string name="open_service">Open service</string>
+    <string name="open_browser">Open browser</string>
+
+    <string name="open_in_browser">Open in browser</string>
+    <string name="rust_link" translatable="false">https://www.rust-lang.org/</string>
+
+    <string name="open_file">Open file</string>
+    <string name="log_file_name" translatable="false">logFile.txt</string>
+    <string name="show_file_content">Show file content</string>
+
+    <string name="open_settings">Open settings</string>
+    <string name="save_settings">Save settings</string>
+    <string name="enter_lang_text">Enter your favorite programming language</string>
+
+    <string name="my_theme" translatable="false">MyTheme</string>
+
+</resources>
